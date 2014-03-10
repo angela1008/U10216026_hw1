@@ -1,6 +1,7 @@
 
-public class Function2 {
-	public double fc2(double x){
+public class Function2 extends AbstractDrawFunction{
+	@Override
+	public double f(double x){
 		return Math.sin(x);
 	}
 }

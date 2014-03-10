@@ -1,6 +1,7 @@
 
-public class Function1 {
-	public double fc1(double x){
+public class Function1 extends AbstractDrawFunction{
+	@Override
+	public double f(double x){
 		return x * x;
 	}
 }

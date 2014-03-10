@@ -1,6 +1,7 @@
 
-public class Function3 {
-	public double fc3(double x){
+public class Function3 extends AbstractDrawFunction{
+	@Override
+	public double f(double x){
 		return Math.cos(x);
 	}
 }
